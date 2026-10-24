@@ -351,4 +351,8 @@
     document.getElementById("search").addEventListener("input", (e) => {
       render(groupAlphabetical(allResources, e.target.value), allResources.length, loadedAt);
     });
-    document.getElementById("refresh").addEventListener("c
+    document.getElementById("refresh").addEventListener("click", load);
+    load();
+  </script>
+</body>
+</html>
